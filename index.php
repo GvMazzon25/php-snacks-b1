@@ -65,19 +65,12 @@
       ";
   };
 ?>
-
-
-
-
-
-
 <h1>Snack 4</h1>
 <?php 
   $array = [];
   for($i = 0; $i <= 15; $i++){
       $myNewInt = rand(1, 100);
-      $array[] = "$myNawInt";
-      echo $array;
+      echo $myNewInt;
   };
 
 ?>
